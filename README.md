@@ -1,6 +1,6 @@
 # Adobe XD plugin boilerplate React
 
-A quick start boilerplate to begin a plugin for Adobe XD CC. It uses webpack for bundling and therefore has support for npm modules (for demonstration purposes, it has the [`xd-storage-helper`](https://github.com/pklaschka/xd-storage-helper) preinstalled). It also comes with the typings (https://github.com/AdobeXD/typings) preconfigured for autocompletion so you can jump-start your plugin.
+A quick start boilerplate to begin a plugin for Adobe XD CC using React. It uses webpack for bundling and therefore has support for npm modules (for demonstration purposes, it has the [`xd-storage-helper`](https://github.com/pklaschka/xd-storage-helper) preinstalled). It also comes with the typings (https://github.com/AdobeXD/typings) preconfigured for autocompletion so you can jump-start your plugin.
 
 ## Note
 This repository is a fork of [xd-plugin-boilerplate](https://github.com/pklaschka/xd-plugin-boilerplate), but uses React components to create a User Interface.
