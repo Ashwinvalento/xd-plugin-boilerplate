@@ -1,5 +1,5 @@
 module.exports = {
-    entry: "./src/main.js",
+    entry: "./src/main.jsx",
     output: {
         path: __dirname,
         filename: "dist/main.js",
@@ -15,5 +15,17 @@ module.exports = {
         cloud: "cloud",
         uxp: "uxp",
         viewport: "viewport"
+    },
+    module: {
+        rules: [
+            {
+                test: /\.jsx?$/,
+                exclude: /node_modules/,
+                loader: 'babel-loader',
+                options: {
+                    plugins: ['transform-react-jsx'],
+                },
+            }
+        ],
     }
 };

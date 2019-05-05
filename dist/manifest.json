@@ -3,8 +3,23 @@
     "name": "My plugin",
     "version": "0.0.1",
     "description": "Description of your plugin.",
-    "icons": [
-    ],
+    "icons" : [ {
+        "path" : "images/pluginIcon1.png",
+        "width" : 48,
+        "height" : 48
+      }, {
+        "path" : "images/pluginIcon2.png",
+        "width" : 96,
+        "height" : 96
+      }, {
+        "path" : "images/pluginIcon3.png",
+        "width" : 144,
+        "height" : 144
+      }, {
+        "path" : "images/pluginIcon4.png",
+        "width" : 192,
+        "height" : 192
+      } ],
     "host": {
         "app": "XD",
         "minVersion": "13.0.0"

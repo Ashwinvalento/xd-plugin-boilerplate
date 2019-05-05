@@ -1,7 +1,7 @@
 {
-  "name": "xd-plugin-boilerplate",
+  "name": "xd-plugin-boilerplate-react",
   "version": "1.0.0",
-  "description": "A simple plugin, built with the xd-webpack-starter-template package",
+  "description": "A simple XD plugin, built with the xd-webpack-starter-template package using React",
   "private": true,
   "scripts": {
     "start": "npm run debug:watch",
@@ -13,7 +13,12 @@
     "lint": "eslint src/**/*.js --ignore-pattern node_modules/"
   },
   "dependencies": {
-    "xd-storage-helper": "^1.1.5"
+    "xd-storage-helper": "^1.1.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   },
   "devDependencies": {
     "webpack": "^4.21.0",
@@ -23,8 +28,11 @@
   },
   "keywords": [
     "adobe",
-    "xd"
+    "xd",
+    "React",
+    "Template",
+    "Plugin"
   ],
-  "author": "Pablo Klaschka",
+  "author": "Ashwin Valento, Pablo Klaschka",
   "license": "MIT"
 }

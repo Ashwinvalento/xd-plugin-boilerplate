@@ -2,6 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "checkJs": true,
+    "jsx": "react",
     "lib": [
       "es2015",
       "dom"
